@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>loginDialog</class>
+ <widget class="QDialog" name="loginDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>690</width>
+    <height>606</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lb_head">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../INClient/tx/0.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_welcom">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>未登录</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_upload">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>80</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上传视频</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_hasupload">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>80</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上传的视频</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_login">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登录/注册</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>130</y>
+     <width>691</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <widget class="QMymovieLabel" name="pb_play1" native="true">
+    <property name="geometry">
+     <rect>
+      <x>12</x>
+      <y>2</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>2</y>
+      <width>163</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play3" native="true">
+    <property name="geometry">
+     <rect>
+      <x>349</x>
+      <y>2</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>2</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play5" native="true">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>160</y>
+      <width>162</width>
+      <height>135</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play6" native="true">
+    <property name="geometry">
+     <rect>
+      <x>183</x>
+      <y>160</y>
+      <width>163</width>
+      <height>135</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play7" native="true">
+    <property name="geometry">
+     <rect>
+      <x>352</x>
+      <y>160</y>
+      <width>162</width>
+      <height>135</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play8" native="true">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>160</y>
+      <width>162</width>
+      <height>135</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play10" native="true">
+    <property name="geometry">
+     <rect>
+      <x>183</x>
+      <y>320</y>
+      <width>163</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play9" native="true">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>320</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play12" native="true">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>320</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QMymovieLabel" name="pb_play11" native="true">
+    <property name="geometry">
+     <rect>
+      <x>352</x>
+      <y>320</y>
+      <width>162</width>
+      <height>136</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pb_fresh">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>80</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>刷新</string>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QMymovieLabel</class>
+   <extends>QWidget</extends>
+   <header location="global">qmymovielabel.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
